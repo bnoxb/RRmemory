@@ -1,0 +1,106 @@
+body {
+	background-color: #000E00;
+	color: #D2F4FF;
+	text-align: left;
+}
+
+h1 {
+	background-color: #002632;
+	background-image: linear-gradient(to right, rgba(255,0,0,0) 0%, rgba(255,0,0,0) 35%, rgba(255,0,0,1) 100%);
+	color: #00C1FF;
+	font-size: 50px;
+	padding: 20px 0 20px 20px;
+}
+
+
+p {
+	/*background-image: linear-gradient(to right, rgba(0,147,24,.5) 0%, rgba(105,201,121,.5) 35%, rgba(34,50,37,1) 100%);*/
+/*	background-size: cover;
+	height: 100px;
+*/	text-align: left;
+	font-size: 30px;
+	width: 1000px;
+	margin:0 0 0 40px;
+	opacity: 0;
+	-webkit-transition: all 0.5s cubic-bezier(1,-0.14, 0.78, 0.71);
+	-moz-transition: all 0.5s cubic-bezier(1,-0.14, 0.78, 0.71);
+	-o-transition: all 0.5s cubic-bezier(1,-0.14, 0.78, 0.71);
+	transition: all 0.5s cubic-bezier(1,-0.14, 0.78, 0.71);
+}
+a {
+	color: #00C1FF;
+	text-decoration-line: none;
+}
+nav {
+	background-image: linear-gradient(to right, rgba(0,147,24,.5) 0%, rgba(105,201,121,.5) 35%, rgba(34,50,37,1) 100%);
+	background-size: cover, 100px;
+	padding: 20px 20px 20px 20px;
+	color: #00C1FF;
+}
+small {
+	opacity: 0;
+	width: 500px;
+}
+img {
+	padding: 10px;
+}
+/*main {
+	background-size: cover, 0px;
+	height: 0px;
+	width: cover;
+}*/
+.instructions {
+	background-image: linear-gradient(to right, rgba(0,147,24,.5) 0%, rgba(105,201,121,.5) 35%, rgba(34,50,37,1) 100%);
+	background-size: cover, 0px;
+	height: 0px;
+	padding: 0 0 20px 0;
+	opacity: 1;
+	-webkit-transition: all 0.5s cubic-bezier(0, 0.26, 0.02, 1.06);
+	-moz-transition: all 0.5s cubic-bezier(0, 0.26, 0.02, 1.06);
+	-o-transition: all 0.5s cubic-bezier(0, 0.26, 0.02, 1.06);
+	transition: all 0.5s cubic-bezier(0, 0.26, 0.02, 1.06);
+}
+.instButton {
+	display: inline-block;
+	border: none;
+	background-color: none;
+	font-size: 40px;
+	text-transform: capitalize;
+	font-family: 'Allerta Stencil', sans-serif;
+}
+
+.concentration {
+	color: #00C1FF;
+	font-size: 40px;
+	font-family: 'Allerta Stencil', sans-serif;
+
+}
+
+.showInstructions {
+	background-size: cover, 500px;
+	height: 130px;
+	opacity: 1;
+}
+
+.showInstructions p {
+	height: auto;
+	opacity: 1;
+}
+
+.showInstructions small {
+	opacity: 1;
+}
+.showInstructions nav {
+	color: #000000;
+}
+
+.roboto {
+	color: #008516;
+}
+
+#gameBoard {
+	position: absolute;
+	top: 380px;
+	left: 100px;
+	text-align: center;
+}
